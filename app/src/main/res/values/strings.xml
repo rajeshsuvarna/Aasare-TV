@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Aasare TV</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">THANK YOU</string>
+
+    <string name="slide_1_title">Hello !!</string>
+    <string name="slide_1_desc">Welcome to AASARE TV App!</string>
+
+    <string name="slide_2_title">Schedule</string>
+    <string name="slide_2_desc">Complete program schedules of your favourite Aasare TV!</string>
+
+    <string name="slide_3_title">Live Stream</string>
+    <string name="slide_3_desc">Watch free online streaming of your favourite Aasare TV!!</string>
+
+    <string name="slide_4_title">Donate</string>
+    <string name="slide_4_desc">Support us to make society better!</string>
+</resources>
