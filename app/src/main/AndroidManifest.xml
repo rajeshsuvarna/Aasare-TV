@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.infouna.aasaretv">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
+        android:name="com.infouna.aasaretv.app.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,28 +15,34 @@
         <activity
             android:name=".WelcomeActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait"
-            android:noHistory="true"></activity>
-        <activity android:name=".FullScreen"
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".FullScreen"
             android:screenOrientation="landscape"></activity>
-        <activity android:name=".WebViewActivitySchedule"> </activity>
-        <activity android:name=".HomeActivity"
+        <activity android:name=".WebViewActivitySchedule"></activity>
+        <activity
+            android:name=".HomeActivity"
             android:screenOrientation="portrait"></activity>
-        <activity android:name=".WebViewVideos"
+        <activity
+            android:name=".WebViewVideos"
             android:noHistory="true"
             android:screenOrientation="portrait"></activity>
-        <activity android:name=".WebViewDonate"
+        <activity
+            android:name=".WebViewDonate"
             android:noHistory="true"
             android:screenOrientation="portrait"></activity>
-        <activity android:name=".WebViewContact"
+        <activity
+            android:name=".WebViewContact"
             android:noHistory="true"
             android:screenOrientation="portrait"></activity>
     </application>
